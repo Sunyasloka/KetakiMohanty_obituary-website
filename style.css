@@ -1,0 +1,76 @@
+
+
+body {
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 12px;
+  background-color:  #EDE7E7;
+  border: 2px double #999;
+  padding: 25px 35px;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.centralized{
+  text-align: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 230px;
+  border-radius: 50%; /* This makes the image perfectly round */
+  object-fit: cover;
+  border: 2px solid #444;
+
+}
+.img-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.lifespan p {
+  margin: 5px 0;
+  font-weight: bold;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.name {
+  text-align: center;
+  color: #222;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+
+
+
+
